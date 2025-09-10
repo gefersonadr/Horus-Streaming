@@ -1,57 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hórus — Filmes & Séries</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horus Streaming</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1>Hórus</h1>
-    <p class="tag">Catálogo de Filmes e Séries — Crie sua conta</p>
-  </header>
-  <main class="container">
-    <section class="auth">
-      <div class="card">
-        <h2>Inscreva-se</h2>
-        <form id="signupForm">
-          <label>Nome
-            <input type="text" id="name" required />
-          </label>
-          <label>E-mail
-            <input type="email" id="email" required />
-          </label>
-          <label>Senha
-            <input type="password" id="password" minlength="6" required />
-          </label>
-          <button type="submit">Criar conta</button>
-        </form>
-        <p class="note">Essa é uma demo front-end — não salva dados em servidor.</p>
-      </div>
-      <div class="card">
-        <h2>Entrar</h2>
-        <form id="loginForm">
-          <label>E-mail
-            <input type="email" id="loginEmail" required />
-          </label>
-          <label>Senha
-            <input type="password" id="loginPassword" required />
-          </label>
-          <button type="submit">Entrar</button>
-        </form>
-      </div>
-    </section>
-    <section class="catalog">
-      <h2>Catálogo (exemplo)</h2>
-      <div id="moviesGrid" class="grid">
-        <!-- Cards gerados via JS -->
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <small>Hórus • Demo — 2025</small>
-  </footer>
+  <h1>Horus Streaming</h1>
+  <p>Exemplo de vídeo rodando diretamente no site 🚀</p>
+
+  <video controls width="640" poster="poster.jpg">
+    <source src="sample.mp4" type="video/mp4">
+    Seu navegador não suporta a tag de vídeo.
+  </video>
+
   <script src="script.js"></script>
 </body>
 </html>
